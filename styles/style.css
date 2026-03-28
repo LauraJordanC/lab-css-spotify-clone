@@ -136,12 +136,12 @@ section.elements li p {
 /* Sección del Reproductor completa */
 section.player, 
 section.player * {
-    all: unset;          /* elimina todos los estilos heredados */
+    all: unset;          
     box-sizing: border-box;
 }
 section.player {
-    display: flex;                    /* Contenido en fila */
-    justify-content: space-between;   /* Texto izquierda, imagen derecha */
+    display: flex;                    
+    justify-content: space-between;   
     align-items: flex-start;
     padding: 50px 40px;
     background-color: #1DB954;
@@ -152,12 +152,12 @@ section.player {
     background-position: center;
     background-size: 100px;
 
-    color: white; /* asegura color de texto blanco */
+    color: white; 
 }
 
 /* Bloque de texto */
 .player-left {
-    max-width: 60%;  /* limita ancho del texto */
+    max-width: 60%;  
 }
 
 /* h3 alineado a la izquierda con subrayado */
@@ -174,33 +174,33 @@ section.player {
 
 /* Lista vertical en Player */
 section.player ul {
-    list-style: none;        /* sin bullets */
+    list-style: none;        
     padding: 0;
     margin: 30px 0 0 0;
-    display: block;          /* vertical */
+    display: block;          
 }
 
 section.player li {
-    display: block;          /* vertical */
+    display: block;          
     margin-bottom: 20px;
 }
 
 section.player li h4 {
     font-size: 1.5em;
-    color: white !important; /* fuerza color blanco */
-    display: block;          /* asegura que sea visible */
+    color: white !important; 
+    display: block;          
     margin-bottom: 5px;
 }
 
 section.player li p {
     font-size: 1em;
-    color: white !important; /* fuerza color blanco */
+    color: white !important; 
     display: block;
 }
 
 /* Imagen a la derecha */
 .player-right {
-    flex-shrink: 0; /* evita que se achique */
+    flex-shrink: 0; 
 }
 
 .player-right img {
